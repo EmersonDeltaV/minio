@@ -19,6 +19,8 @@ This repo holds the Dockerfile image used for the MinIO application currently av
 - **Disaster Recovery**: Implement robust disaster recovery solutions with continuous replication.
 - **Archiving**: Archive large volumes of data with high reliability and security.
 
+For more information, visit the [MinIO website](https://min.io/).
+
 # Prerequisites
 1. You must have MinIO installed from the marketplace.
 
