@@ -1,5 +1,5 @@
 # Use the official MinIO image from Quay.io
-FROM quay.io/minio/minio
+FROM quay.io/minio/minio:RELEASE.2025-03-12T18-04-18Z
 
 # Set the environment variable for the console address
 ENV MINIO_CONSOLE_ADDRESS=":9001"

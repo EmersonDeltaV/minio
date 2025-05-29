@@ -48,3 +48,4 @@ Currently, MinIO Support working with the following apps available on the market
   
 ## Changelist
 - **03/26/2025** - First version.
+- **05/28/2025** - Roll back to version RELEASE.2025-03-12T18-04-18Z instead of latest due to latest updates removing UI access to keys management functionalities.
