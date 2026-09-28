@@ -1,5 +1,24 @@
-# Introduction
-This repo holds the Dockerfile image used for the MinIO application currently available in the Edge Orchestration Marketplace. MinIO is a high-performance, distributed object storage system that is compatible with Amazon S3. It is designed to handle large-scale data workloads such as machine learning, analytics, and cloud-native applications.
+# MinIO
+
+## Important Information
+
+This repository contains Emerson-authored deployment and integration examples for an open-source application that can run on DeltaV Edge. The application is not part of DeltaV Edge, is not required for its operation, and does not modify its functionality. All repository contents are provided as examples only. Users are responsible for securing, validating, testing, and maintaining configurations before production use.
+
+## Relationship to DeltaV Edge
+
+MinIO is an optional third-party object storage platform.
+
+MinIO may be used by customers or optional applications to store and manage files, objects, datasets, backups, analytics artifacts, machine learning assets, and other application data.
+
+MinIO is not part of the DeltaV Edge architecture, is not required for DeltaV Edge operation, and does not participate in DeltaV Edge platform operations.
+
+## About MinIO
+
+MinIO is a high-performance open-source object storage platform that provides S3-compatible storage for a wide range of application, analytics, machine learning, and data management workloads.
+
+MinIO enables organizations to store and manage unstructured data, files, datasets, backups, logs, machine learning artifacts, and other application assets using industry-standard object storage interfaces.
+
+When used alongside DeltaV Edge, MinIO can serve as an optional object storage platform for applications, analytics workflows, and services that utilize operational data made available through supported DeltaV Edge integrations and connected data sources.
 
 ## Features
 - **High Performance**: MinIO is optimized for high throughput and low latency, making it ideal for demanding applications.
